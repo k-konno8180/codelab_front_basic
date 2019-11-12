@@ -1,0 +1,46 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #f0f8ff;
+}
+* {
+  box-sizing: border-box;
+}
+.cf::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.wrap {
+  max-width: calc(1280/1920*100%);
+  margin: 50px auto;
+  font-size: 2rem;
+  text-align: center;
+}
+.header {
+  background: #a5a5d8;  
+  padding: 50px 0;
+  
+}
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  ;
+}
+
+
+.menu {
+  background: #48bd1a;
+  float: left;
+  height: 250px;
+  width: 180px;
+  line-height: 250px;
+  
+  border: 1px solid #333;
+}
+.footer {
+  background: #add8e6;
+  padding: 5rem 0;
+}
