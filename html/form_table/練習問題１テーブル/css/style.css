@@ -1,0 +1,20 @@
+@charset "UTF8";
+
+.header{
+  height: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+.header2{
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+table, th, td{
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}

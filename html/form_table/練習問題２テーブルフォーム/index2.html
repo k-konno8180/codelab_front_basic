@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>練習問題②（テーブル+フォーム）</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    </head>
+<body>
+ <header>
+  <div class="header">フォーム練習</div>
+  <div class="header2">お問い合わせ</div>
+
+
+ </header>
+ <form>
+<table>
+　 <tr style="width:300px">
+  <th bgcolor="#d3d3d3" >お名前</th><td> <input type="text" style="width: 95%; height:30px;" name="yourname"></td>
+  　</tr>
+  <tr>
+    <th bgcolor="#d3d3d3">ご住所</th><td><input type="text" style="width: 95%; height:30px;" name="address"></td>
+  </tr>
+  <tr>
+    <th bgcolor="#d3d3d3">性別</th><td style="height:30px;"><input id="male" type="radio" name="sex" value="male" checked><label for="male">男性</label> <input id="female" type="radio" name="sex" value="female"><label for="female">女性</label>
+                 </td>
+  </tr>
+<tr>
+  <th bgcolor="#d3d3d3" height="50">お問い合わせ種別</th> <td> <select name="資料請求"><option>資料請求</option><option>資料請求</option></select> </td>
+</tr>
+<tr>
+  <th bgcolor="#d3d3d3" height="50"><p>ご希望の連絡方法</p><p>(複数選択可)</p>
+  </th><td><form action="#" method="post">
+    <input type="checkbox" name="contct" value="mail">メール
+    <input type="checkbox" name="contct" value="tel">電話
+    <input type="checkbox" name="contct" value="visit">訪問
+  </form></td>
+</tr>
+<tr>
+  <th bgcolor="#d3d3d3" height="50">お問い合わせ内容</th><td> <textarea name="other" class="textarea-large" style="height: 100px;" ></textarea> </td>
+</tr>
+</table>
+ <div class="submit"><input type="submit" value="送信" class="btn"></div>
+  
+
+ </form>
+</body>
+</html>
